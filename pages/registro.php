@@ -29,8 +29,16 @@
 					</div>
 
 					<span class="login-layout-title p-t-20 p-b-45">
-						Login
+						Cadastro
 					</span>
+
+					<div class="wrap-input100 validate-input m-b-10" data-validate = "Nome obrigatório">
+						<input class="input100" type="text" name="username" placeholder="Nome">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user"></i>
+						</span>
+					</div>
 
 					<div class="wrap-input100 validate-input m-b-10" data-validate = "Usuário obrigatório">
 						<input class="input100" type="text" name="username" placeholder="Usuário">
@@ -40,8 +48,22 @@
 						</span>
 					</div>
 
+					<div class="wrap-input100 validate-input m-b-10" data-validate = "E-mail obrigatório">
+						<input class="input100" type="text" name="username" placeholder="E-mail">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user"></i>
+						</span>
+					</div>
 					<div class="wrap-input100 validate-input m-b-10" data-validate = "Senha obrigatória">
 						<input class="input100" type="password" name="pass" placeholder="Senha">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-10" data-validate = "Confirmação de Senha obrigatória">
+						<input class="input100" type="password" name="pass" placeholder="Confirmar Senha">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock"></i>
@@ -50,19 +72,12 @@
 
 					<div class="container-login-layout-btn p-t-10">
 						<button class="login-layout-btn">
-							Logar
+							Cadastrar
 						</button>
 					</div>
-
-					<div class="text-center w-full p-t-25 p-b-230">
-						<a href="#" class="txt1">
-							Esqueceu sua senha?
-						</a>
-					</div>
-
 					<div class="text-center w-full">
-						<a class="txt1" href="#">
-							Criar uma conta
+						<a class="txt1" href="login.php">
+							Já possui Conta? Clique aqui para Logar
 							<i class="fa fa-long-arrow-right"></i>						
 						</a>
 					</div>

@@ -25,47 +25,23 @@
 		<div class="container-login100" style="background-image: url('../images/img-01.jpg');">
 			<div class="wrap-login100 p-t-190 p-b-30">
 				<form class="login-layout validate-form">
-					<div class="login-layout-avatar">
-						<img src="../images/avatar-01.jpg" alt="AVATAR">
-					</div>
 
 					<span class="login-layout-title p-t-20 p-b-45">
-						Login
+						Digite o endereço de E-mail vinculado a conta
 					</span>
 
-					<div class="wrap-input100 validate-input m-b-10" data-validate = "Usuário obrigatório">
-						<input class="input100" type="text" name="username" placeholder="Usuário">
+					<div class="wrap-input100 validate-input m-b-10" data-validate = "E-mail obrigatório">
+						<input class="input100" type="text" name="username" placeholder="Email">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user"></i>
 						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input m-b-10" data-validate = "Senha obrigatória">
-						<input class="input100" type="password" name="pass" placeholder="Senha">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-lock"></i>
-						</span>
-					</div>
-
 					<div class="container-login-layout-btn p-t-10">
-						<button class="login-layout-btn">
-							Logar
+						<button class="login-layout-btn" href="login.php">
+							Continuar
 						</button>
-					</div>
-
-					<div class="text-center w-full p-t-25 p-b-230">
-						<a href="forgotpass.php" class="txt1">
-							Esqueceu sua senha?
-						</a>
-					</div>
-
-					<div class="text-center w-full">
-						<a class="txt1" href="registro.php">
-							Criar uma conta
-							<i class="fa fa-long-arrow-right"></i>						
-						</a>
 					</div>
 				</form>
 			</div>
