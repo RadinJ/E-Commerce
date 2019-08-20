@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Rodape da Pagina</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/footer.css">
-</head>
 
-<body>
-<div class="content">
-</div>
     <footer id="Rodape">
         <div class="container">
             <div class="row">
@@ -49,7 +38,7 @@
                         <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                         <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
                     </div>
-                    <button type="button" class="btn btn-default">Contact us</button>
+                    <button type="button" class="btn btn-default">Contato</button>
                 </div>
             </div>
         </div>
@@ -58,7 +47,4 @@
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    

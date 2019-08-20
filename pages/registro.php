@@ -8,7 +8,6 @@
 
 	<link rel="icon" type="image/png" href="../favicon.ico"/>	
 	
-    <!--===========================================[ ESTILOS ]=========================================-->
 	<link rel="stylesheet" type="text/css" href="../styles/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../styles/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../styles/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
@@ -17,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="../styles/select/select2.min.css">
 	<link rel="stylesheet" type="text/css" href="../styles/login/util.css">
 	<link rel="stylesheet" type="text/css" href="../styles/login/main.css">
-	<!--===========================================[ ESTILOS ]=========================================-->
+	
 </head>
 <body>
 	
@@ -70,17 +69,20 @@
 				</form>
 			</div>
 		</div>
-	</div>
-	
-	
+	</div>		
 
-<!--===========================================[ SCRIPTS ]=========================================-->
 	<script src="../scripts/jquery/jquery-3.2.1.min.js"></script>
 	<script src="../scripts/login/popper/popper.js"></script>
 	<script src="../scripts/login/bootstrap/bootstrap.min.js"></script>
 	<script src="../scripts/login/select/select2.min.js"></script>
 	<script src="../scripts/login/main.js"></script>
-<!--===============================================================================================-->
 
 </body>
+
+<footer>
+
+ <?php include ('footer.php'); ?>
+ 
+ </footer>
+
 </html>
