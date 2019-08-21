@@ -12,7 +12,7 @@
                     <h5>Inicio</h5>
                     <ul>
                         <li><a href="#">Pagina Inicial</a></li>
-                        <li><a href="#">Cadastrar</a></li>
+                        <li><a href="registro.php">Cadastrar</a></li>
                         <li><a href="#">Downloads</a></li>
                     </ul>
                 </div>
