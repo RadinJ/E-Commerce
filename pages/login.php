@@ -10,14 +10,50 @@
 
 	<link rel="icon" type="image/png" href="../favicon.ico"/>	
 
+	
+
+	<!-- Estilos gerais -->
 	<link rel="stylesheet" type="text/css" href="../styles/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../styles/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../styles/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 	<link rel="stylesheet" type="text/css" href="../styles/animation/animate.css">
-	<link rel="stylesheet" type="text/css" href="../styles/hamburguer/hamburgers.min.css">
 	<link rel="stylesheet" type="text/css" href="../styles/select/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="../styles/main.css">
+
+
+	<!-- Fontes e icones -->
+	<link rel="stylesheet" type="text/css" href="../styles/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../styles/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">	
+
+	<!-- Estilos da página -->
 	<link rel="stylesheet" type="text/css" href="../styles/login/util.css">
 	<link rel="stylesheet" type="text/css" href="../styles/login/main.css">
+
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+		<a class="navbar-brand abs" href="#">Distribuidora Norden</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse" id="collapsingNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Ínicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Shopping</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#t" data-toggle="collapse">Contato</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Fale conosco</a>
+				</li>
+			</ul>
+		</div>
+		</nav>  
+
+	</header>
 </head>
 
 <body>
