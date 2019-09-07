@@ -23,33 +23,7 @@
 	<link rel="stylesheet" type="text/css" href="../styles/login/util.css">
 	<link rel="stylesheet" type="text/css" href="../styles/login/main.css">
    	
-  	<header>
-		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
-		<a class="navbar-brand abs" href="#">Distribuidora Norden</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="navbar-collapse collapse" id="collapsingNavbar">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Ínicio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Shopping</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#t" data-toggle="collapse">Contato</a>
-				</li>
-			</ul>
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Fale conosco</a>
-				</li>
-			</ul>
-		</div>
-		</nav>  
-
-	</header>
+	<?php include ('header.php'); ?>
 </head>
 <body>
 

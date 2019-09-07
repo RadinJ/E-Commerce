@@ -9,16 +9,24 @@
 
 
 	<link rel="icon" type="image/png" href="../favicon.ico"/>	
-
+	
+	<!-- Estilos gerais -->
 	<link rel="stylesheet" type="text/css" href="../styles/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../styles/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../styles/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 	<link rel="stylesheet" type="text/css" href="../styles/animation/animate.css">
-	<link rel="stylesheet" type="text/css" href="../styles/hamburguer/hamburgers.min.css">
 	<link rel="stylesheet" type="text/css" href="../styles/select/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="../styles/main.css">
+
+
+	<!-- Fontes e icones -->
+	<link rel="stylesheet" type="text/css" href="../styles/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../styles/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">	
+
+	<!-- Estilos da página -->
 	<link rel="stylesheet" type="text/css" href="../styles/login/util.css">
 	<link rel="stylesheet" type="text/css" href="../styles/login/main.css">
 </head>
+
+<?php include ('header.php'); ?>
 
 <body>
 	<div class="limiter">
@@ -48,6 +56,7 @@
 		</div>
 	</div>	
 	
+
 	<script src="../scripts/jquery/jquery-3.2.1.min.js"></script>
 	<script src="../scripts/login/popper/popper.js"></script>
 	<script src="../scripts/login/bootstrap/bootstrap.min.js"></script>
