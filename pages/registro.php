@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Distribuidora Norden - Login</title>
+
+	<title>Distribuidora Norden - Registro</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 	<link rel="icon" type="image/png" href="../favicon.ico"/>	
 
+	
+
 	<!-- Estilos gerais -->
 	<link rel="stylesheet" type="text/css" href="../styles/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../styles/bootstrap/bootstrap-navbar.css">
 	<link rel="stylesheet" type="text/css" href="../styles/animation/animate.css">
 	<link rel="stylesheet" type="text/css" href="../styles/select/select2.min.css">
 	<link rel="stylesheet" type="text/css" href="../styles/main.css">
-
 
 	<!-- Fontes e icones -->
 	<link rel="stylesheet" type="text/css" href="../styles/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -22,78 +26,102 @@
 	<!-- Estilos da página -->
 	<link rel="stylesheet" type="text/css" href="../styles/login/util.css">
 	<link rel="stylesheet" type="text/css" href="../styles/login/main.css">
-   	
+
+	<script src="../scripts/jquery/jquery-3.2.1.min.js"></script>
+
 	<?php include ('header.php'); ?>
 </head>
-<body>
 
+<body>
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('../images/img-01.jpg');">
 			<div class="wrap-login100 p-t-190 p-b-30">
-				<form class="login-layout validate-form">
+				<form>
 					<div class="login-layout-avatar">
 						<img src="../images/avatar-01.jpg" alt="AVATAR">
 					</div>
 
 					<span class="login-layout-title p-t-20 p-b-45">
-						Cadastro
+						Registro
 					</span>
 
-					<div class="wrap-input100 validate-input m-b-10" data-validate = "Nome obrigatório">
-						<input class="input100" type="text" name="username" placeholder="Nome">
+					<div class="wrap-input100 validate-input m-b-10">
+						<input id="user" class="input100" type="text" name="username" placeholder="Usuário">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user"></i>
 						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input m-b-10" data-validate = "Usuário obrigatório">
-						<input class="input100" type="text" name="username" placeholder="Usuário">
+
+					<div class="wrap-input100 validate-input m-b-10">
+						<input id="email" class="input100" type="text" name="email" placeholder="E-mail">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user"></i>
 						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input m-b-10" data-validate = "E-mail obrigatório">
-						<input class="input100" type="text" name="username" placeholder="E-mail">
+
+					<div class="wrap-input100 validate-input m-b-10">
+						<input id="name" class="input100" type="text" name="name" placeholder="Nome">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user"></i>
 						</span>
 					</div>
-					<div class="wrap-input100 validate-input m-b-10" data-validate = "Senha obrigatória">
-						<input class="input100" type="password" name="pass" placeholder="Senha">
+
+					<div class="wrap-input100 validate-input m-b-10">
+						<input id="cpf" class="input100" type="text" name="cpf" placeholder="CPF">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-file"></i>
+						</span>
+					</div>
+
+
+					<div class="wrap-input100 validate-input m-b-10">
+						<input id="password" class="input100" type="password" name="pass" placeholder="Senha">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock"></i>
 						</span>
 					</div>
-					<div class="wrap-input100 validate-input m-b-10" data-validate = "Confirmação de Senha obrigatória">
-						<input class="input100" type="password" name="pass" placeholder="Confirmar Senha">
+
+
+					<div class="wrap-input100 validate-input m-b-10">
+						<input id="passwordconfirm" class="input100" type="password" name="passcofnirm" placeholder="Confirmar senha">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock"></i>
 						</span>
 					</div>
+
 
 					<div class="container-login-layout-btn p-t-10">
-						<button class="login-layout-btn">
-							Cadastrar
-						</button>
+						<button class="login-layout-btn" type='submit' id='validateregister'>Realizar registro</button>
+					
 					</div>
+
+
+
+					<div class="text-center w-full p-t-25 p-b-230">
+						<a href="forgotpass.php" class="txt1">
+							Esqueceu sua senha?
+						</a>
+					</div>
+
 					<div class="text-center w-full">
 						<a class="txt1" href="login.php">
-							Já possui Conta? Clique aqui para Logar
+							Já possuí uma conta? fazer login
 							<i class="fa fa-long-arrow-right"></i>						
 						</a>
 					</div>
 				</form>
 			</div>
 		</div>
-	</div>		
-
-	<script src="../scripts/jquery/jquery-3.2.1.min.js"></script>
+	</div>	
+	
 	<script src="../scripts/login/popper/popper.js"></script>
 	<script src="../scripts/login/bootstrap/bootstrap.min.js"></script>
 	<script src="../scripts/login/select/select2.min.js"></script>
