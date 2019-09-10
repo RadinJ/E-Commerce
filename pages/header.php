@@ -6,8 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="../styles/main.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-	<link rel="stylesheet" type="text/css" href="../styles/bootstrap/bootstrap-navbar.css">
-
+  <link rel="stylesheet" type="text/css" href="../styles/bootstrap/bootstrap-navbar.css">
+ 
 	<!-- Fontes e icones -->
 	<link rel="stylesheet" type="text/css" href="../styles/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../styles/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">	
