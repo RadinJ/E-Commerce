@@ -23,8 +23,6 @@
 	<?php include ('header.php'); ?>
 	</head>
 
-
-
      <section class= "slider">
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -34,19 +32,22 @@
 		</ol>
 		<div class="carousel-inner">
 				<div class="carousel-item active">
-				<img class="d-block w-100" src="../images/imagem_3.jpg" alt="First slide">
+				<img class="d-block w-100" src="../images/img_9.jpg" >
 					<div class="carousel-caption d-none d-md-block">
-				<h5>Primeiro</h5>
-				<p>...</p>
+				<h5>Distribuidora Norden</h5>
+				<h6>O chopp nº 1 de toda a região sul do Brasil</h6>
 				</div>
 				</div>
 
 			<div class="carousel-item">
-			<img class="d-block w-100" src="../images/teste.jpg" alt="Second slide">
+				<img class="d-block w-100" src="../images/imagem_3.jpg" >
+					<div class="carousel-caption d-none d-md-block">	
+					<h5>Conheça os mais vendidos</h5>
+				<h6></h6>
+				</div>
 			</div>
 			<div class="carousel-item">
-			<img class="d-block w-100" src="../images/teste.jpg" alt="Third slide">
-			</div>
+			<img class="d-block w-100" src="../images/imagem_7.jpg">
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -62,59 +63,65 @@
 
 
 
-<section class="features-icons bg-light text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-screen-desktop m-auto text-primary"></i>
-            </div>
-            <h3>Algo aqui!</h3>
-            <p class="lead mb-0">algo aqui será colocado em breve.</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-layers m-auto text-primary"></i>
-            </div>
-            <h3>Algo aqui!</h3>
-            <p class="lead mb-0">Algo aqui será colocado em breve.</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
-            </div>
-            <h3>Algo aqui!</h3>
-            <p class="lead mb-0">Algo aqui será colocado em breve.</p>
-          </div>
-        </div>
-      </div>
+  <div class= "main-info" > 
+
+  <div class="container mt-3 mb-4">
+	<div class="container-main">
+	<div class="row">
+  <div class="col-sm-2">
+    <div class="callout callout-info b-t-1 b-r-1 b-b-1">
+      <small class="text-dark">Novos Clientes</small><br>
+      <strong class="h4">9,123</strong>
     </div>
-  </section>
+  </div><!--/.col-->
+  <div class="col-sm-2">
+    <div class="callout callout-danger b-t-1 b-r-1 b-b-1">
+      <small class="text-dark">Total de Clientes</small><br>
+      <strong class="h4">22,643</strong>
+    </div>
+  </div><!--/.col-->
+  <div class="col-sm-2">
+    <div class="callout callout-warning b-t-1 b-r-1 b-b-1">
+      <small class="text-dark">Visualizações da Página</small><br>
+      <strong class="h4">78,623</strong>
+    </div>
+  </div><!--/.col-->
+  <div class="col-sm-2">
+    <div class="callout callout-success b-t-1 b-r-1 b-b-1">
+      <small class="text-dark">Produtos Vendidos</small><br>
+      <strong class="h4" >150,123 </strong>
+    </div>
+  </div><!--/.col-->
+  <div class="col-sm-2">
+    <div class="callout b-t-1 b-r-1 b-b-1">
+      <small class="text-dark">Litros de Chopp Vendidos</small><br>
+      <strong class="h4 b">857,584L</strong>
+    </div>
+  </div><!--/.col-->
+  <div class="col-sm-2">
+    <div class="callout callout-primary b-t-1 b-r-1 b-b-1">
+      <small class="text-dark">Satisfação dos Clientes</small><br>
+      <strong class="h4">95%</strong>
+    </div>
+  </div><!--/.col-->
+</div><!--/.row-->
+</div><!--/.container-main-->
+</div>		
+</div>
+		
+<div class="container mt-3 mb-4">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/testecarvao.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark">Go somewhere</a>
+  </div>
+</div>
+</div>
 
 
-
-		<div class="container mt-3 mb-3">
-		
-		<div class="progress mt-2 mb-2">
-		<div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-		</div>
-		<div class="progress mt-2 mb-2">
-		<div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-		</div>
-		<div class="progress mt-2 mb-2">
-		<div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-		</div>
-		<div class="progress mt-2 mb-2">
-		<div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-		</div>
-		
-		
-	</div>
+	
 
 
 	

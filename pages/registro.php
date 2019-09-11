@@ -106,17 +106,11 @@
 
 
 					<div class="text-center w-full p-t-25 p-b-230">
-						<a href="forgotpass.php" class="txt1">
-							Esqueceu sua senha?
+						<a href="login.php" class="txt1">
+						Já possuí uma conta? fazer login
 						</a>
 					</div>
 
-					<div class="text-center w-full">
-						<a class="txt1" href="login.php">
-							Já possuí uma conta? fazer login
-							<i class="fa fa-long-arrow-right"></i>						
-						</a>
-					</div>
 				</form>
 			</div>
 		</div>

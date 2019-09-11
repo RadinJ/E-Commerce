@@ -44,7 +44,7 @@
                 <div class="col-sm-3">
                     <div class="social-networks">
                         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/NordenChopp/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
                         <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
                     </div> 
                 </div>
