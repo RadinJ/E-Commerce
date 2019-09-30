@@ -37,7 +37,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="https://www.facebook.com/pg/NordenChopp/about/?ref=page_internal" target="_blank"> 
           <i class="fa fa-envelope-o"></i>
           Contato
         </a>

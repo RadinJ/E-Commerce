@@ -67,7 +67,7 @@
 
   <div class="container mt-3 mb-4">
 	<div class="container-main">
-	<div class="row">
+	<div class="row" style= "margin-right: -280px;margin-left: 250px;">
   <div class="col-sm-2">
     <div class="callout callout-info b-t-1 b-r-1 b-b-1">
       <small class="text-dark">Novos Clientes</small><br>
@@ -115,7 +115,7 @@
   <div class="card-body">
     <h5 class="card-title">Garrafa Pet 2 Litros</h5>
     <p class="card-text">R$9,50</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -125,7 +125,7 @@
   <div class="card-body">
     <h5 class="card-title">Garrafa Pet 1 Litro</h5>
     <p class="card-text">R$6,50</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -135,7 +135,7 @@
   <div class="card-body">
     <h5 class="card-title">Tanque 203 Litros</h5>
     <p class="card-text">R$1.724,20</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -145,7 +145,7 @@
   <div class="card-body">
     <h5 class="card-title">Tanque 223L</h5>
     <p class="card-text">R$1.884,00</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -155,7 +155,7 @@
   <div class="card-body">
     <h5 class="card-title">Sistema RalfBeer 10L</h5>
     <p class="card-text">R$95,00</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -165,7 +165,7 @@
   <div class="card-body">
     <h5 class="card-title">Sistema RalfBeer 15L</h5>
     <p class="card-text">R$130,00</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -175,7 +175,7 @@
   <div class="card-body">
     <h5 class="card-title">Tanque 235L</h5>
     <p class="card-text">R$1.980,00</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -185,7 +185,7 @@
   <div class="card-body">
     <h5 class="card-title">Tanque 420L</h5>
     <p class="card-text">R$3.460,00</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -194,8 +194,8 @@
   <img class="card-img-produtos" src="../images/prod_07.jpg" alt="Carvao">
   <div class="card-body">
     <h5 class="card-title">Chopeira Tradicional</h5>
-    <p class="card-text">1.500,00</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <p class="card-text">R$1.500,00</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -205,7 +205,7 @@
   <div class="card-body">
     <h5 class="card-title">Tanque 162L</h5>
     <p class="card-text">R$1.396,00</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -215,7 +215,7 @@
   <div class="card-body">
     <h5 class="card-title">Tanque 1726L</h5>
     <p class="card-text">R$13.908,00</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -225,7 +225,7 @@
   <div class="card-body">
     <h5 class="card-title">Tanque 108L</h5>
     <p class="card-text">R$964,00</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
