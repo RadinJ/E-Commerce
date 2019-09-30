@@ -113,8 +113,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_01.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Garrafa Pet 2 Litros</h5>
+    <p class="card-text">R$9,50</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -123,8 +123,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_02.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Garrafa Pet 1 Litro</h5>
+    <p class="card-text">R$6,50</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -133,8 +133,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_10.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Tanque 203 Litros</h5>
+    <p class="card-text">R$1.724,20</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -143,8 +143,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_11.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Tanque 223L</h5>
+    <p class="card-text">R$1.884,00</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -153,8 +153,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_05.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Sistema RalfBeer 10L</h5>
+    <p class="card-text">R$95,00</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -163,8 +163,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_06.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Sistema RalfBeer 15L</h5>
+    <p class="card-text">R$130,00</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -173,8 +173,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_12.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Tanque 235L</h5>
+    <p class="card-text">R$1.980,00</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -183,8 +183,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_13.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Tanque 420L</h5>
+    <p class="card-text">R$3.460,00</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -193,8 +193,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_07.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Chopeira Tradicional</h5>
+    <p class="card-text">1.500,00</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -203,8 +203,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_09.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Tanque 162L</h5>
+    <p class="card-text">R$1.396,00</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -213,8 +213,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/prod_15.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Tanque 1726L</h5>
+    <p class="card-text">R$13.908,00</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
@@ -223,8 +223,8 @@
 <div class="card" style="width: 18rem;">
   <img class="card-img-produtos" src="../images/imagem_8.jpg" alt="Carvao">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <h5 class="card-title">Tanque 108L</h5>
+    <p class="card-text">R$964,00</p>
     <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
