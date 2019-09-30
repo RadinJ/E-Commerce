@@ -108,18 +108,128 @@
 </div><!--/.container-main-->
 </div>		
 </div>
-		
-<div class="container mt-3 mb-4">	
+<div class="container">
+<div class="mt-3 mb-4" style="float: left; margin-left : 15px">	
 <div class="card" style="width: 18rem;">
-  <img class="card-img-produtos" src="../images/testecarvao.jpg" alt="Carvao">
+  <img class="card-img-produtos" src="../images/prod_01.jpg" alt="Carvao">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
-    <a href="#" class="btn btn-dark">Go somewhere</a>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
   </div>
 </div>
 </div>
-
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_02.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_10.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_11.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_05.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_06.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_12.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_13.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_07.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_09.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/prod_15.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class=" mt-3 mb-4" style="float: left; margin-left : 15px">	
+<div class="card" style="width: 18rem;">
+  <img class="card-img-produtos" src="../images/imagem_8.jpg" alt="Carvao">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Quick sample text to create the card title and make up the body of the card's content.</p>
+    <a href="#" class="btn btn-dark" style="margin-left : 40px">Go somewhere</a>
+  </div>
+</div>
+</div>
+</div>
 
 	
 
