@@ -115,7 +115,7 @@
   <div class="card-body">
     <h5 class="card-title">Garrafa Pet 2 Litros</h5>
     <p class="card-text">R$9,50</p>
-    <a href="#" class="btn btn-dark" style="margin-left : 65px">Comprar</a>
+    <a href="#" class="btn btn-dark btn_buy" style="margin-left : 65px">Comprar</a>
   </div>
 </div>
 </div>
@@ -239,6 +239,7 @@
 	<script src="../scripts/login/bootstrap/bootstrap.min.js"></script>
 	<script src="../scripts/login/select/select2.min.js"></script>
 	<script src="../scripts/login/main.js"></script>
+  <script src="../scripts/main.js"></script>
 
 </body>
 

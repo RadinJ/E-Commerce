@@ -47,7 +47,7 @@
       <li class="nav-item">
         <a class="nav-link" href="#">
           <i class="fa fa-shopping-cart">
-            <span class="badge badge-info">1</span></i>
+            <span class="badge badge-info" id="cart-icon">1</span></i>
           Meu carrinho
         </a>
 	  </li>	  
