@@ -1,0 +1,5 @@
+comandos sql
+
+insert into Usuario (usuario,email,nome,senha,cpf) VALUES ('vitor','vitor-zaions@email.com','vitor',123456,'04773872109')
+
+insert into Produto (nome,descricao,preco,foto) VALUES ('bujão cromado','Esse é o butijão lendário, o melhor butijão do Brasil.',290.00,'bujao')
