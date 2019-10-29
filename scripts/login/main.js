@@ -55,18 +55,28 @@ function validateCPF(strCPF) {
   function validatelogin() {
     var email = $("#email").val();    
     var password = $("#password").val();
- 
-    if (validateEmail(email)) {
-      alert("Email válido.");
-    } else {
-      alert("Email vazio ou inválido.");
-    } 
 
-    if(validatePasswordLogin(password)){
-       alert("Senha válida.");    
+
+    var emailsituation = false;
+    var passsituation = false;
+    if (!validateEmail(email)) {
+       alert("Email vazio ou inválido.");
     }else{
-      alert("Você precisa inserir sua senha.");
+     emailsituation = true;  
+     alert("ok 0");
+
+    } 
+    if(!validatePasswordLogin(password)){
+       alert("Você precisa inserir sua senha.");
+    }else{
+      passsituation = true;
+      alert("ok 1");
     }
+
+   if(emailsituation == true && passsituation == true){   
+     // enviar post
+    }
+   
     return false;
   }
 

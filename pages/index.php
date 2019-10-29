@@ -3,8 +3,8 @@
 
 <head>
 
-	<title>Distribuidora Norden - Login</title>
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
+ 	<title>Distribuidora Norden - Login</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -110,40 +110,45 @@
 </div>
 <div class="container">
 
-<?php>
-// Dados do banco
+<?php
+$serverName = "localhost\SQLEXPRESS"; //serverName\instanceName
+$connectionInfo = array( "Database"=>"Norden", "UID"=>"sa", "PWD"=>"123456", "CharacterSet" => "UTF-8");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
 
-$dbhost   = “hostbanco”;   #Nome do host
-$db       = “nomebanco”;   #Nome do banco de dados
-$user     = “nomeusuario”; #Nome do usuário
-$password = “senhabase”;   #Senha do usuário
-
-// Dados da tabela
-
-$tabela = “nometabela”;    #Nome da tabela
-$campo1 = “campo1tabela”;  #Nome do campo da tabela
-$campo2 = “campo2tabela”;  #Nome de outro campo da tabela
-
- 
-
-@mssql_connect($dbhost,$user,$password) or die
-(“Não foi possível a conexão com o servidor!”);
-@mssql_select_db(“$db“) or die
-(“Não foi possível selecionar o banco de dados!”); 
-
-$instrucaoSQL = “SELECT $campo1, $campo2 FROM $tabela ORDER BY $campo1“;
-$consulta = mssql_query($instrucaoSQL);
-$numRegistros = mssql_num_rows($consulta); 
-
-echo “Esta tabela contém $numRegistros registros!\n<hr>\n“; 
-
-if ($numRegistros!=0) {
-while ($cadaLinha = mssql_fetch_array($consulta)) {
-echo “$cadaLinha[$campo1] – $cadaLinha[$campo2]\n<br>\n“;
- }
+if( $conn ) {
+     echo "Connection established.<br />";
+}else{
+     echo "Connection could not be established.<br />";
+     die( print_r( sqlsrv_errors(), true));
 }
 
+
+$sql = "SELECT nome, cpf FROM Usuario";
+$params = array();
+$options =  array( "Scrollable" => SQLSRV_CURSOR_KEYSET );
+$stmt = sqlsrv_query( $conn, $sql , $params, $options );
+
+$row_count = sqlsrv_num_rows( $stmt );
+
+while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
+  echo $row['nome']."<br />";
+  echo $row['cpf']."<br \>";
+}
+
+    if ($row_count === false)
+       echo "Error al obtener datos.";
+    else
+      //echo "bien";
+    echo $row_count;
+
+    while( $row = sqlsrv_fetch_array( $stmt) ) {
+          print json_encode($row);
+    }
+
+sqlsrv_close($conn);
+
 ?>
+
 
 
 
