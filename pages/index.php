@@ -111,6 +111,9 @@
 <div class="container">
 
 <?php
+
+function login(){
+
 $serverName = "localhost\SQLEXPRESS"; //serverName\instanceName
 $connectionInfo = array( "Database"=>"Norden", "UID"=>"sa", "PWD"=>"123456", "CharacterSet" => "UTF-8");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
@@ -146,6 +149,7 @@ while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
     }
 
 sqlsrv_close($conn);
+}
 
 ?>
 

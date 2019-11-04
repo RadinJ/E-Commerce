@@ -53,12 +53,33 @@
 	  </li>	  
 	<li class="nav-item dropdown">	 
 	    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-user"></i>
-          Minha Conta
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="login.php">Fazer login</a>
-          <a class="dropdown-item" href="registro.php">Registro</a>
+         
+   <?php
+
+        
+ 
+if (isset($_COOKIE['user-norden'])){             
+  $username = $_COOKIE['user-norden'];
+
+         
+
+
+  echo " <i class='fa fa-user'></i>Bem vindo $username!</a> ";        
+  echo " <div class='dropdown-menu' aria-labelledby='navbarDropdown'> ";  
+  echo "<form action='logout.php' method='post'>";
+  echo "<input class='dropdown-item' type='submit' name='unsetcookies' value='Sair' />";
+  echo " </form> ";
+
+
+ }else{
+   echo "<i class='fa fa-user'></i>Minha Conta</a>";
+   echo " <div class='dropdown-menu' aria-labelledby='navbarDropdown'> ";
+   echo "<a class='dropdown-item' href='login.php'>Fazer login</a> ";
+   echo " <a class='dropdown-item' href='registro.php'>Registro</a>";
+ }
+
+         ?>
+
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

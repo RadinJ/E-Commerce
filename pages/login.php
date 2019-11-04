@@ -56,7 +56,7 @@
 						<button type='submit' id='validatelogin' value="Submit" class="login-layout-btn">Logar</button>
 					</div>
 
-					<button type="submit" name="myButton" value="foo">Click me</button>
+					<button type="submit" id= 'validatelogins' name="myButton" value="foo">Click me</button>
 
 					<div class="text-center w-full p-t-25 p-b-230">
 						<a href="forgetpassword.php" class="txt1">

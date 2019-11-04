@@ -63,20 +63,29 @@ function validateCPF(strCPF) {
        alert("Email vazio ou inválido.");
     }else{
      emailsituation = true;  
-     alert("ok 0");
+
 
     } 
     if(!validatePasswordLogin(password)){
        alert("Você precisa inserir sua senha.");
     }else{
       passsituation = true;
-      alert("ok 1");
+
     }
 
    if(emailsituation == true && passsituation == true){   
-     // enviar post
+    document.getElementById("validatelogin").HTMLFormElement.submit()
+ /*   jQuery.ajax({
+      type: "POST",
+      url: 'service-login.php',
+      data: {functionname: 'loginprocess',  arguments: [$("#email").val(), $("#password").val()]}, 
+       success:function(data) {
+      alert(data); 
+       }
+  }); */
+
     }
-   
+  
     return false;
   }
 
