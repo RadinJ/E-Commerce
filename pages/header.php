@@ -45,11 +45,23 @@
     </ul>
     <ul class="navbar-nav ">
       <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fa fa-shopping-cart">
+ 
+        <li class="nav-item dropdown">	 
+	    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-shopping-cart">
             <span class="badge badge-info" id="cart-icon">1</span></i>
           Meu carrinho
         </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style='width:200px'>
+        <div style='margin-top:5px'>
+          <img class="dropdown-item" src="../images/produtos/prod_09.jpg" alt="Carvao" style='width:100px; float:left; border-radius: 80%;'>
+          Teste 2
+        </div>
+      </li>
+
+
+
+
 	  </li>	  
 	<li class="nav-item dropdown">	 
 	    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
